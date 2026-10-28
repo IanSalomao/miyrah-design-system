@@ -1,0 +1,30 @@
+{
+  "name": "miyrah-design-system",
+  "version": "0.1.0",
+  "description": "Design system do Miyrah — tokens, fontes self-hosted e preset Tailwind, compartilhados entre app e landing page.",
+  "license": "UNLICENSED",
+  "type": "module",
+  "sideEffects": [
+    "*.css"
+  ],
+  "files": [
+    "fonts",
+    "fonts.css",
+    "fonts-system.css",
+    "tokens.css",
+    "tokens.json",
+    "index.css",
+    "tailwind.preset.js",
+    "README.md"
+  ],
+  "exports": {
+    ".": "./index.css",
+    "./index.css": "./index.css",
+    "./tokens.css": "./tokens.css",
+    "./fonts.css": "./fonts.css",
+    "./fonts-system.css": "./fonts-system.css",
+    "./tokens.json": "./tokens.json",
+    "./tailwind-preset": "./tailwind.preset.js",
+    "./fonts/*": "./fonts/*"
+  }
+}

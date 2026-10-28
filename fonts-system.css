@@ -1,0 +1,9 @@
+/* Miyrah — só a fonte do sistema (Geist). Para o app, que NUNCA carrega a Fraunces.
+   A LP e materiais usam fonts.css (Geist + Fraunces). */
+@font-face {
+  font-family: "Geist";
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url("./fonts/Geist-Variable.woff2") format("woff2");
+}

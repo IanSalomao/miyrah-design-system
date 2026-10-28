@@ -1,0 +1,60 @@
+/* Miyrah Design System — tokens (tema único claro).
+   Nomes iguais aos de tokens.json e da referência navegável. Não usar hex solto em componente. */
+:root {
+  /* ---- Cor ---- */
+  --surface-page: #eef1f5;   /* fundo da página — cinza frio claro (substitui o bege) */
+  --surface-card: #ffffff;   /* card / painel */
+  --surface-raised: #ffffff; /* drawer / popover / dropdown (diferenciado por sombra) */
+  --ink: #12203a;            /* texto principal / títulos */
+  --ink-muted: #5a6473;      /* texto secundário */
+  --ink-subtle: #6b7584;     /* texto terciário / captions (AA em surface-card) */
+  --ink-on-accent: #ffffff;  /* texto/ícone sobre fundos sólidos de marca/semânticos */
+  --line: #e3e7ed;           /* contorno padrão / régua fina */
+  --line-strong: #ccd3dc;    /* contorno de ênfase / borda de input */
+  --blue: #1472e6;           /* accent único — UI (botão, foco, seleção) */
+  --blue-hover: #0f5bc0;     /* hover/pressed; link em texto */
+  --blue-soft: #e7f0fd;      /* tint de hover / item ativo / badge info */
+  --blue-navy: #1b2f9e;      /* apoio escuro — 2ª série de gráfico / marca */
+  --income: #1f7a54;         /* entradas (+) */
+  --income-soft: #e4f1ea;    /* fundo sutil de entrada */
+  --expense: #b5443a;        /* saídas (−) e ações destrutivas */
+  --expense-soft: #f8e9e7;   /* fundo sutil de saída / confirmação destrutiva */
+  --focus-ring: var(--blue); /* anel de foco (2px, offset 2px) */
+
+  /* ---- Tipografia ---- */
+  --font-sans: "Geist", system-ui, -apple-system, sans-serif;     /* fonte do sistema */
+  --font-brand: "Fraunces", Georgia, "Times New Roman", serif;    /* SÓ marca/destaque */
+
+  /* ---- Espaçamento (base 8px) ---- */
+  --space-0: 0;
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+  --space-6: 32px;
+  --space-8: 48px;
+  --space-10: 64px;
+  --space-12: 96px;
+
+  /* ---- Raio ---- */
+  --radius-sm: 8px;    /* inputs, badges pequenos */
+  --radius-md: 10px;   /* botões, controles */
+  --radius-lg: 14px;   /* cards e painéis */
+  --radius-xl: 20px;   /* destaque, drawer, modais */
+  --radius-pill: 999px;
+
+  /* ---- Elevação (sombra sempre azul-tingida) ---- */
+  --shadow-sm: 0 1px 3px rgba(18, 32, 58, 0.09), 0 1px 2px rgba(18, 32, 58, 0.06);
+  --shadow-md: 0 4px 12px rgba(18, 32, 58, 0.1), 0 2px 4px rgba(18, 32, 58, 0.06);
+  --shadow-lg: 0 12px 28px rgba(18, 32, 58, 0.14), 0 4px 8px rgba(18, 32, 58, 0.08);
+  --shadow-xl: 0 24px 56px rgba(18, 32, 58, 0.22);
+
+  /* ---- Movimento ---- */
+  --duration-fast: 180ms;
+  --duration-base: 240ms;
+  --duration-enter: 320ms;
+  --duration-slow: 500ms;
+  --ease-standard: cubic-bezier(0.2, 0.8, 0.2, 1);
+  --ease-exit: cubic-bezier(0.4, 0, 1, 1);
+}
